@@ -22,6 +22,7 @@ jobs:
         - name: Run a one-line script
           run: |
             echo Build identidock!
+            pip install -r requirements.txt
             python tests.py
             python my_script.py
 
